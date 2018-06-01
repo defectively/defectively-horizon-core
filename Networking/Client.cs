@@ -4,6 +4,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
+using Defectively.Core.Communication;
 using Defectively.Core.Cryptography;
 using Defectively.Core.Models;
 using Newtonsoft.Json;
@@ -86,9 +87,12 @@ namespace Defectively.Core.Networking
         ///     Disconnects the <see cref="Client"/> and releases the managed and unmanaged resources.
         /// </summary>
         public void Disconnect() {
-            writer.Dispose();
-            reader.Dispose();
+            client.Close();
             client.Dispose();
+            writer.Close();
+            writer.Dispose();
+            reader.Close();
+            reader.Dispose();
         }
 
         /// <summary>

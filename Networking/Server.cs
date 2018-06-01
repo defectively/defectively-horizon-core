@@ -45,10 +45,14 @@ namespace Defectively.Core.Networking
             client.Dispose();
         }
 
-        private void OnClientDisconnected(ConnectableBase sender, DisconnectedEventArgs e) {
-            e.Client.Disconnected -= OnClientDisconnected;
-            e.Client.IsAlive = false;
-            OnDisconnected(this, e);
+        /// <summary>
+        ///     Disconnects a <see cref="Client"/>.
+        /// </summary>
+        /// <param name="client">The <see cref="Client"/> to disconnect.</param>
+        public void DisconnectClient(Client client) {
+            client.Disconnected -= OnClientDisconnected;
+            client.IsAlive = false;
+            clients.Remove(client);
         }
 
         /// <summary>
@@ -102,6 +106,14 @@ namespace Defectively.Core.Networking
         /// </summary>
         public void Stop() {
             listener.Stop();
+        }
+
+        private void OnClientDisconnected(ConnectableBase sender, DisconnectedEventArgs e) {
+            try {
+                DisconnectClient(e.Client);
+            } catch { }
+
+            OnDisconnected(this, e);
         }
     }
 }
