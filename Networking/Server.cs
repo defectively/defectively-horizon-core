@@ -40,7 +40,10 @@ namespace Defectively.Core.Networking
         ///     Disconnects each <see cref="Client"/> and releases the managed and unmanaged resources.
         /// </summary>
         public void Dispose() {
-            clients.ForEach(c => c.Disconnect());
+            for (var i = 0; i < clients.Count; i++) {
+                DisconnectClient(clients[i]);
+            }
+
             clients.Clear();
             client.Dispose();
         }
@@ -48,11 +51,14 @@ namespace Defectively.Core.Networking
         /// <summary>
         ///     Disconnects a <see cref="Client"/>.
         /// </summary>
-        /// <param name="client">The <see cref="Client"/> to disconnect.</param>
-        public void DisconnectClient(Client client) {
-            client.Disconnected -= OnClientDisconnected;
-            client.IsAlive = false;
-            clients.Remove(client);
+        /// <param name="c">The <see cref="Client"/> to disconnect.</param>
+        public void DisconnectClient(Client c) {
+            try {
+                c.Disconnect();
+            } catch { }
+            c.Disconnected -= OnClientDisconnected;
+            c.IsAlive = false;
+            clients.Remove(c);
         }
 
         /// <summary>
