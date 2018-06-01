@@ -1,0 +1,26 @@
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\bin\Debug\Defectively Core.dll
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\bin\Debug\Defectively Core.pdb
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\bin\Debug\Newtonsoft.Json.dll
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\bin\Debug\Newtonsoft.Json.xml
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.dll
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.pdb
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csproj.CopyComplete
+E:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Defectively Core.dll
+E:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Defectively Core.pdb
+E:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Newtonsoft.Json.dll
+E:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Newtonsoft.Json.xml
+E:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csproj.CoreCompileInputs.cache
+E:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.dll
+E:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.pdb
+D:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Defectively Core.dll
+D:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Defectively Core.pdb
+D:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Newtonsoft.Json.dll
+D:\Defectively Horizon\Defectively Horizon Core\bin\Debug\Newtonsoft.Json.xml
+D:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csproj.CoreCompileInputs.cache
+D:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csproj.CopyComplete
+D:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.dll
+D:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.pdb
+E:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csprojAssemblyReference.cache
+E:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csproj.CopyComplete
+D:\Defectively Horizon\Defectively Horizon Core\obj\Debug\Defectively Core.csprojAssemblyReference.cache
