@@ -30,6 +30,7 @@ namespace Defectively.Core.Storage
         /// <param name="storage">An optional second <see cref="AresStorage"/> that should be combined with this instance.</param>
         /// <returns>Returns "true" if one of the two <see cref="AresStorage"/> instances contains the value, otherwise "false".</returns>
         public bool HasValue(string value, AresStorage storage = null) {
+            // IMPORTANT Rework Ares
             if (storage != null && storage.values.Count > 0) {
                 return values.Union(storage.values).Contains(value);
             }

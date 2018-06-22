@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Communication\CommandHandler.cs" />
     <Compile Include="Extensibility\IExtensionWindow.cs" />
     <Compile Include="Models\ServerInformation.cs" />
     <Compile Include="Storage\AresStorage.cs" />
